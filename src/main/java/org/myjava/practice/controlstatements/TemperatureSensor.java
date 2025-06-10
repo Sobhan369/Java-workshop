@@ -7,13 +7,13 @@ public class TemperatureSensor {
        if (number < 18 || number > 28 ){
            System.out.println("out of temp : "+  number);
        }
-       if (number > 18 && number < 20){
+       if (number >= 18 && number <= 20){
            System.out.println("coolest");
        }
-       if (number > 20 && number < 24){
+       if (number >= 20 && number <= 24){
            System.out.println("cooler");
        }
-       if (number > 24 && number < 28){
+       if (number >= 24 && number <= 28){
            System.out.println("cool");
        }
 
